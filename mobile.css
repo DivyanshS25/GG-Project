@@ -1,0 +1,215 @@
+@media (max-width:1230px) and (min-width:770px) {
+
+    #navbar ul li a {
+        padding: 5px;
+        font-size: 22px;
+    }
+
+    #log {
+        font-size: 22px;
+    }
+
+
+    #services h1 {
+        margin-top: 2.5rem;
+    }
+
+    .p {
+        height: 17rem;
+    }
+
+    .p div img {
+        width: 10rem;
+        height: 10rem;
+
+    }
+
+    @media screen and (max-width:920px) {
+
+
+        #packages h3 {
+            text-align: center;
+
+        }
+
+        #contact h2 {
+            font-size: 1.5rem;
+        }
+        .sp{
+            font-size: 1.2rem;
+        }
+        #contact a{
+            font-size: 2rem;
+        }
+    }
+}
+
+/* media2 */
+@media screen and (max-width:770px) {
+    #navbar {
+        height: 50px;
+    }
+
+    #navbar img {
+        width: 5rem;
+        height: 2.5rem;
+        position: absolute;
+        left: 30px;
+        border-radius: 10px;
+    }
+
+    #navbar ul li a {
+        padding: 4px;
+        font-size: 15px;
+    }
+
+    #log {
+        font-size: 15px;
+    }
+
+    #services h1 {
+        font-size: 1.8rem;
+    }
+
+    #packages h3 {
+
+        text-align: center;
+    }
+
+    .p {
+        height: 14rem;
+    }
+
+    .p div img {
+        width: 8rem;
+        height: 8rem;
+
+    }
+    .social{
+        width: 40rem;
+    }
+    #contact h2 {
+        font-size: 1.5rem;
+    }
+    .sp{
+        font-size: 1.2rem;
+    }
+    #contact a{
+        font-size: 2rem;
+    }
+    #write form input{
+        padding: 2px;
+        width: 6rem;
+    }
+    #write form input::placeholder{
+        font-size: 12px;
+    }
+    #write form textarea{
+        width: 10rem;
+    }
+    #write form textarea::placeholder{
+        font-size: 15px;}
+}
+
+/* media3 */
+@media screen and (max-width:650px) {
+    #navbar img {
+        left: 5px;
+        width: 4rem;
+    }
+
+    #home h1 {
+        font-size: 3rem;
+    }
+
+    #log {
+        right: 5px;
+    }
+
+    .p {
+        height: 10rem;
+    }
+
+    .p div img {
+        height: 5rem;
+        width: 6rem;
+    }
+}
+
+@media screen and (max-width:515px) {
+    #navbar ul li a {
+        padding: 4px;
+        font-size: 15px;
+    }
+
+    #log {
+        font-size: 15px;
+        padding: 4px;
+    }
+
+    .p {
+        flex-wrap: wrap;
+        height: 30rem;
+    }
+
+    .p div img {
+        height: 10rem;
+        width: 10rem;
+    }
+}
+
+@media screen and (max-width:500px) {
+    #navbar img {
+        left: 2px;
+        width: 3rem;
+    }
+
+    #navbar ul li a {
+        font-size: 13px;
+        padding: 4px;
+    }
+
+    #log {
+        font-size: 13px;
+        right: 1px;
+        padding: 4px;
+    }
+
+    #home h1 {
+        font-size: 2.3rem;
+    }
+}@media screen and (max-width:420px){
+    #contact{
+        flex-wrap: wrap;
+     }
+}
+
+@media screen and (max-width:385px) {
+    #navbar img {
+        left: 0px;
+        width: 3rem;
+    }
+
+    #navbar ul li a {
+        font-size: 13px;
+        padding: 0px;
+    }
+
+    #home h1 {
+        font-size: 2rem;
+    }
+
+    .p {
+        flex-wrap: wrap;
+        height: 59rem;
+    }
+    
+}
+
+@media screen and (max-width:360px) {
+
+    #navbar img {
+        width: 2rem;
+        height: 2rem;
+    }
+}

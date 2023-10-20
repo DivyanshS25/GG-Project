@@ -1,0 +1,251 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+#navbar {
+    position: sticky;
+    display: flex;
+    align-items: center;
+    height: 60px;
+    justify-content: center;
+
+    top: 0px;
+}
+
+#navbar::before {
+    content: "";
+    background-color: black;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.7;
+    
+}
+#navbar img{
+    width: 5rem;
+    height: 3rem;
+    position: absolute;
+    left: 30px;
+    border-radius: 10px;
+}
+#navbar ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+#navbar ul li a {
+    text-decoration: none;
+    padding: 10px;
+    font-size: 25px;
+    color: white;
+    margin: 0px 10px;
+    font-family: 'Tilt Neon', sans-serif;
+}
+
+#navbar ul li a:hover {
+    background-color: rgb(177, 41, 41);
+    color: white;
+    border-radius: 14px;
+}
+
+#log {
+    border: none;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 25px;
+    font-family: 'Tilt Neon', sans-serif;
+    color: rgb(253, 253, 253);
+    cursor: pointer;
+    position: absolute;
+    right: 45px;
+    border-radius: 14px;
+    margin-top: 1px;
+}
+
+#log:hover {
+    color: rgb(253, 251, 251);
+    background-color: rgb(177, 41, 41);
+}
+
+#home {
+    margin-top: 100px;
+    /* border: 2px solid black;         */
+    height: 390px;
+}
+
+#home::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    background: url(photo1.jpg) no-repeat center center/cover;
+    width: 100%;
+    height:600px;
+    z-index: -1;
+    opacity: 0.9;
+}
+
+#home h1 {
+    text-align: center;
+    margin-top: 100px;
+    font-size: 3.5rem;
+    color: white;
+
+}
+
+
+
+
+#services{
+    margin-top: 60px;
+}
+#services h1 {
+    display: flex;
+    font-size: 34px;
+    font-family: 'Tilt Neon', sans-serif;
+    justify-content: center;
+   
+   color: rgb(175, 201, 132);
+}
+
+#packages {
+
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+#packages h3 {
+    font-size: 1.6rem;
+    padding: 0px;
+    color: rgb(186, 128, 128);
+    text-align: center;
+    font-family: 'Tilt Neon', sans-serif;
+}
+
+.p {
+    padding: 0rem;
+    font-size: 1.5rem;
+    /* border: 2px solid black; */
+    /* background-color: rgb(176, 173, 180); */
+    height: 24rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.p div {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'Tilt Neon', sans-serif;
+    font-weight: 500;
+    
+}
+
+.p div img {
+    width: 17rem;
+    height: 17rem;
+    margin: 1rem;
+    border-radius: 20px;
+    align-items: center;
+}
+.p div a{
+    text-decoration: none;
+    color: rgb(2, 2, 2);
+}
+.p div a:hover{
+   color: rgb(5, 5, 5);
+   background-color: rgb(186, 128, 128);
+   border-radius: 30px;
+}
+#contact{
+    background-color: rgb(48, 47, 47);
+    color: white;
+    display: flex;
+    justify-content: center;
+  
+}
+#contact h2{
+font-size: 2rem;
+text-align: center;
+}
+.sp{
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 8px;
+}
+
+#contact a{
+
+    font-size: 2.5rem;
+    padding: 10px;
+    color: rgb(247, 248, 249);
+   
+}
+#reach{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.social{
+    height: 20rem;
+    width: 46rem;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#write form{ 
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   padding: 5px;
+}
+#write form input{
+    padding: 5px;
+}
+#write form input::placeholder{
+    font-size: 18px;
+   text-align:center;
+    color: black;
+    font-family: 'Tilt Neon', sans-serif;
+}
+#write form textarea{
+    color: black;
+    background-color: white;
+}
+#write form textarea::placeholder{
+    font-size: 20px;
+   text-align:center;
+    color: black;
+    font-family: 'Tilt Neon', sans-serif;
+}
+#write form div{
+    padding: 5px;
+}
+
+#btn{
+   display: flex;
+   justify-content: center; 
+   padding: 5px;
+   
+}
+#btn div{
+    padding: 5px;
+}
+#btn button{
+    padding: 5px;
+}
+#btn button:hover{
+    background-color: black;
+    color: white;
+}
